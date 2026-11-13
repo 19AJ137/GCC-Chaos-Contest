@@ -1,0 +1,20 @@
+Is true? Do you think you can decrypte GCC? No, you cann't! Because this is GCC6 only!
+You can not decrypte GCC7!
+
+貴方は本当にGCCを解けることができると思う？違う。これはGCC6過ぎではない。GCC7ならば絶対解けることができない！
+GCC(Gao's Chaos cryptosystem) adopts a stream-type conventional cipher with the unpredictabal features of chaos and has many characteristics as follows:
+1)safer
+2)higher speed
+3)moer convenient
+4)moer powerful
+5)less necessary memory
+ 
+GCCカオス暗号は、共通キー型のデジタル型カオス暗号であり、カオスの予測不能、
+初期値に敏感に依存、奇妙なアトラクタ、一方向性などの性質を利用する上、複数
+カオス関数、任意長キーなどさまざまな工夫をすることでDES,DEAL-8などの従来の
+暗号より格段に強くなる。
+GCCカオス暗号は、ソフト単体ではトップクラスに速く、ほぼ0.5対0.5の0,1等頻度を有し、
+マルチメディアデーターに対応できるなどの特長を備えている。
+Is true? Do you think you can decrypte GCC? No, you cann't! Because this is GCC6 only!
+You can not decrypte GCC7!
+					  1996/9/1   Gao Zhenyu, Ph.D.

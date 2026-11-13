@@ -1,0 +1,33 @@
+Hi,
+  I am Gao@IISI.
+  Thank you for your help in debug our GCC6(Gao's Chaos Cryptosystem).
+Use your result of debug, we will improvement GCC6 to GCC7. 
+
+GCC is a digital chaos cryptosystem; it is conventional cryptosystem stream cipher encryption.
+
+Features of GCC Chaos Encryption are as follows:
+1)  Suitable for the Age of Multimedia.
+2)  The Ultimate in Security
+3)  Super High Speed
+4)  Suitability to Various Operating Systems
+5)  Strength against Noise
+6)  Suitability for Use on Networks
+7)  Versatility
+
+GCCカオス暗号は、共通キー型のデジタル型カオス暗号であり、カオスの予測不能、
+初期値に敏感に依存、奇妙なアトラクタ、一方向性などの性質を利用する上、複数
+カオス関数、任意長キーなどさまざまな工夫をすることでDES,DEAL-8などの従来の
+暗号より格段に強い。
+GCCカオス暗号は、ソフト単体ではトップクラスに速く、ほぼ0.5対0.5の0,1等頻度を有し、マルチメディアデーターに対応できるなどの特長を備えている。
+
+GCC is a digital chaos cryptosystem; it is conventional cryptosystem streem cipher encryption.
+Features of GCC Chaos Encryption are as follows:
+1)  Suitable for the Age of Multimedia.
+2)  The Ultimate in Security
+3)  Super High Speed
+4)  Suitability to Various Operating Systems
+5)  Strength against Noise
+6)  Suitability for Use on Networks
+7)  Versatility
+
+					  1996/11/16  Gao Zhenyu, Ph.D. JAPEN
