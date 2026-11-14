@@ -1,23 +1,25 @@
-# Net9718.exe
+# ライセンス
 
-SHA-256: `905e618688e9fc3124f08ca5c915db365faa97db2f646bd5faca793b5b28f00e`
+このディレクトリのプログラムの著作権は、本リポジトリではなく元の配布元にあります。各ファイルは、元のダウンロードページに記載された条件に従ってここで再配布しています。その条件を以下に引用します。
 
-http://www.iisi.co.jp/vcs/software/win95/infoguard31.htm
+## Net9718.exe
 
-> ダウンロードした「カオスインフォガード」の転載および再配布は自由です。ただし、自己解凍前の状態で転載および再配布してください。
-
-# net9729.exe
-
-SHA-256: `e7581c2d15e495041ea7588c94f3b8f23c883ffb4cb2c32a96b9256cb3d19842`
-
-http://www.iisi.co.jp/vcs/software/win95/infoguard95.htm
+配布元: `http://www.iisi.co.jp/vcs/software/win95/infoguard31.htm`
 
 > ダウンロードした「カオスインフォガード」の転載および再配布は自由です。ただし、自己解凍前の状態で転載および再配布してください。
 
-# iisi9605.exe
+## net9729.exe
 
-SHA-256: `9028e5824f6c54327a7e12a10372e7bab3001c857d497c6fb6709d97a8f2e3b0`
+配布元: `http://www.iisi.co.jp/vcs/software/win95/infoguard95.htm`
 
-http://www.iisi.co.jp/vcs/software/infoguard-e1621.html
+> ダウンロードした「カオスインフォガード」の転載および再配布は自由です。ただし、自己解凍前の状態で転載および再配布してください。
+
+## iisi9605.exe
+
+配布元: `http://www.iisi.co.jp/vcs/software/infoguard-e1621.html`
 
 > You may freely distribute Chaos InforGuard, but just be sure to do it in its unextracted form.
+
+原文は英語で、「InforGuard」の綴りも含めて原文のまま引用しています。
+
+これらの条件に従い、3 ファイルとも自己解凍前の元の形式のまま保存しています。SHA-256 チェックサムは [sha256sum.txt](sha256sum.txt) に記載しています。
