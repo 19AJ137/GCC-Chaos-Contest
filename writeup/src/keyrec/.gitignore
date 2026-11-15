@@ -1,0 +1,16 @@
+# ビルドしたプログラムと、実行中にできる一時ファイル
+spenum
+spenum_count
+spjoin
+spjoin2
+tail3
+vres
+kmitm
+k6band
+mktable
+short/hiscan
+tmp_*
+tmp_dict/
+short/hi*.txt
+*.pkl
+__pycache__/

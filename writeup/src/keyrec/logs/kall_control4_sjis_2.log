@@ -1,0 +1,8 @@
+## python3 kall.py control 4 sjis 2
+control sjis key 8457869d8bec9481e776e749e6ef8baf map 2 J [3, 6, 3, 3] classes(f3,f1) [(15, 15), (15, 15), (16, 16), (14, 15)] sigma 9001937628
+  sigma candidates 121; X: 14 J, 3679 sums; Y: 14 J, 3201 sums
+  X: 734238 solutions, 127s | J=14 nA=26 done: iter 18145295929 surv 1544388556 tests 41571467079 sol 734238  125.9s
+  Y (branch 0): 67503 solutions, 52s | J=15 nA=11 done: iter 20129109534 surv 191996080 tests 3873875449 sol 67503  52.3s
+  join: 242s | X 734238 Y 67503 tags 121 fibre 13610425077 kept 3504407264 pairs 393582140 sum_ok 18945692 out 1
+  -> 2 keys (2 classes): HIT ['8457869d8bec9481e776e749e6ef8baf', 'e6ef8baf8bec9481e776e7498457869d']
+elapsed 424s

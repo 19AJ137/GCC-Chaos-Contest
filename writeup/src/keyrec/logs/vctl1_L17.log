@@ -1,0 +1,43 @@
+c0_all nU 0 E 0 [equivalent KEY: GCCvnf.iK7XmFzxuﾟtfvh4~i]
+c1_last4 nU 1 E 0 [equivalent KEY: GCCvnf.iK7XmFzxuﾟtfv]<4>
+c2_last8 nU 2 E 0 [equivalent KEY: GCCvnf.iK7XmFzxu]<8>
+c3_last12 nU 3 E 0 [equivalent KEY: GCCvnf.iK7Xm]<12>
+c4_first12 nU 3 E 0 <12>[EY: GCCvnf.iK7XmFzxuﾟtfvh4~i]
+c5_mid12 nU 3 E 0 [equivale]<12>[nf.iK7XmFzxuﾟtfvh4~i]
+c6_mid8 nU 2 E 0 [equivalent KEY: ]<8>[K7XmFzxuﾟtfvh4~i]
+c7_8+1 nU 2 E 1 [equivalent KEY: GCCvnf.iK7X]<9>[h4~i]
+c8_12+1 nU 3 E 1 [equivalent KEY: GCCvnf.iK7X]<13>
+c9_2byte nU 1 E 0 [equivalent KEY: GCCvnf.iK7XmFzxuﾟtfvh4]<2>
+c10_split nU 3 E 0 [equivale]<4>[EY: GCCv]<4>[K7XmFzxu]<4>[h4~i]
+time 19.4 s
+c0_all     keys 1  keystream-ok 1  original HIT  {'nU': 0, 'E': 0, 'assignments': 1, 'solved': 1, 'ysol': 0, 'xsol': 0, 'groups': 0, 'candidates': 1, 'keys': 1, 'iter': 0, 'fibre': 0, 'rawkeys': 1}
+c1_last4   keys 1  keystream-ok 1  original HIT  {'nU': 1, 'E': 0, 'assignments': 1, 'solved': 1, 'ysol': 0, 'xsol': 0, 'groups': 0, 'candidates': 1, 'keys': 1, 'iter': 0, 'fibre': 0, 'rawkeys': 1}
+c2_last8   keys 1  keystream-ok 1  original HIT  {'nU': 2, 'E': 0, 'assignments': 1, 'solved': 1, 'ysol': 2, 'xsol': 1, 'groups': 1, 'candidates': 3, 'keys': 1, 'iter': 201, 'fibre': 58, 'rawkeys': 1}
+c3_last12  keys 2  keystream-ok 2  original HIT  {'nU': 3, 'E': 0, 'assignments': 1, 'solved': 1, 'ysol': 441, 'xsol': 942, 'groups': 278, 'candidates': 9, 'keys': 2, 'iter': 16893635, 'fibre': 11205, 'rawkeys': 2}
+     other: 6571756976616c656e74204b45593a20474343766e662e694b37586ddf746676467a787568347e69 True
+c4_first12 keys 6  keystream-ok 6  original HIT  {'nU': 3, 'E': 0, 'assignments': 1, 'solved': 1, 'ysol': 360, 'xsol': 698, 'groups': 240, 'candidates': 3, 'keys': 6, 'iter': 10362652, 'fibre': 7449, 'rawkeys': 6}
+     other: 657175696e74204b76616c6545593a20474343766e662e694b37586d467a7875df74667668347e69 True
+     other: 6e74204b6571756976616c6545593a20474343766e662e694b37586d467a7875df74667668347e69 True
+     other: 6e74204b76616c656571756945593a20474343766e662e694b37586d467a7875df74667668347e69 True
+     other: 76616c65657175696e74204b45593a20474343766e662e694b37586d467a7875df74667668347e69 True
+     other: 76616c656e74204b6571756945593a20474343766e662e694b37586d467a7875df74667668347e69 True
+c5_mid12   keys 6  keystream-ok 6  original HIT  {'nU': 3, 'E': 0, 'assignments': 1, 'solved': 1, 'ysol': 264, 'xsol': 481, 'groups': 179, 'candidates': 1, 'keys': 6, 'iter': 14377997, 'fibre': 5965, 'rawkeys': 6}
+     other: 6571756976616c6545593a20474343766e74204b6e662e694b37586d467a7875df74667668347e69 True
+     other: 6571756976616c6545593a206e74204b474343766e662e694b37586d467a7875df74667668347e69 True
+     other: 6571756976616c654743437645593a206e74204b6e662e694b37586d467a7875df74667668347e69 True
+     other: 6571756976616c65474343766e74204b45593a206e662e694b37586d467a7875df74667668347e69 True
+     other: 6571756976616c656e74204b4743437645593a206e662e694b37586d467a7875df74667668347e69 True
+c6_mid8    keys 2  keystream-ok 2  original HIT  {'nU': 2, 'E': 0, 'assignments': 1, 'solved': 1, 'ysol': 2, 'xsol': 1, 'groups': 1, 'candidates': 2, 'keys': 2, 'iter': 103, 'fibre': 67, 'rawkeys': 2}
+     other: 6571756976616c656e74204b45593a206e662e69474343764b37586d467a7875df74667668347e69 True
+c7_8+1     keys 2  keystream-ok 2  original HIT  {'nU': 2, 'E': 1, 'assignments': 221, 'solved': 221, 'ysol': 4, 'xsol': 1, 'groups': 1, 'candidates': 2, 'keys': 2, 'iter': 34529, 'fibre': 41, 'rawkeys': 2}
+     other: 6571756976616c656e74204b45593a20474343766e662e694b37586ddf746676467a787568347e69 True
+c8_12+1    keys 2  keystream-ok 2  original HIT  {'nU': 3, 'E': 1, 'assignments': 221, 'solved': 221, 'ysol': 89977, 'xsol': 192773, 'groups': 57206, 'candidates': 183, 'keys': 2, 'iter': 4378534219, 'fibre': 2301625, 'rawkeys': 2}
+     other: 6571756976616c656e74204b45593a20474343766e662e694b37586ddf746676467a787568347e69 True
+c9_2byte   keys 1  keystream-ok 1  original HIT  {'nU': 1, 'E': 0, 'assignments': 1, 'solved': 1, 'ysol': 0, 'xsol': 0, 'groups': 0, 'candidates': 1, 'keys': 1, 'iter': 0, 'fibre': 0, 'rawkeys': 1}
+c10_split  keys 6  keystream-ok 6  original HIT  {'nU': 3, 'E': 0, 'assignments': 1, 'solved': 1, 'ysol': 363, 'xsol': 808, 'groups': 246, 'candidates': 5, 'keys': 6, 'iter': 13569931, 'fibre': 9381, 'rawkeys': 6}
+     other: 6571756976616c656e662e6945593a20474343766e74204b4b37586d467a7875df74667668347e69 True
+     other: 6571756976616c656e662e6945593a2047434376df7466764b37586d467a78756e74204b68347e69 True
+     other: 6571756976616c656e74204b45593a2047434376df7466764b37586d467a78756e662e6968347e69 True
+     other: 6571756976616c65df74667645593a20474343766e662e694b37586d467a78756e74204b68347e69 True
+     other: 6571756976616c65df74667645593a20474343766e74204b4b37586d467a78756e662e6968347e69 True
+ALL OK

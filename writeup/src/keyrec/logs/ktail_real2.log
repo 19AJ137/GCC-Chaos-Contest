@@ -1,0 +1,7 @@
+## python3 ktail.py real 2
+contest key k: 3 full chunks + 2-byte tail (14 bytes); tail bytes 0x20..0xFC, every 4th byte of the full chunks >= 0x33
+  tail length 2: 71s | tails with map 2: 16282 of 48841; candidates 44986513; iterations 12045908732 | X 751912, Y 65828 solutions
+  groups (tail, sigma): X 537240, Y 63112, both 21528
+  join: X 30159 Y 22490 tags 21528 fibre 3558917201 kept 228793 pairs 31283 sum_ok 663 out 663
+  -> keys matching every target: 0
+elapsed 86s

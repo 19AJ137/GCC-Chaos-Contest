@@ -1,0 +1,7 @@
+contest key k, 4 full chunks (16 bytes), every 4th byte >= 0x33
+  sigma candidates 123; X: 14 J, 3640 sums; Y: 13 J, 3091 sums
+  X: 893681 solutions, 149s | J=14 nA=13 done: iter 18272604633 surv 1865985623 tests 49242308964 sol 893681  147.9s
+  Y (branch 0): 85010 solutions, 55s | J=13 nA=22 done: iter 17135679518 surv 193617842 tests 4701452527 sol 85010  54.9s
+  join: 447s | X 893681 Y 85010 tags 123 fibre 17112070589 kept 5109892373 pairs 612061637 sum_ok 26527384 out 1
+  -> keys matching every target: 1
+     KEY hex 814594ad8ea590ce8cf5814549495349  cp932 '・発磁石光・IISI'

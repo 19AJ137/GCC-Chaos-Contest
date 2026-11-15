@@ -1,0 +1,7 @@
+# ビルドしたプログラムと、スクリプトが作る途中のデータ
+bform/ksolve2
+bform/kexact2
+*.pkl
+*.bin
+!*.json
+__pycache__/

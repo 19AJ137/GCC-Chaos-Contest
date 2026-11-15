@@ -1,0 +1,51 @@
+# Synthetic-key validation runs (cloud sandbox, 2 cores), 2026-11-13/14.  Lower-case keys, 4th char of each chunk in e..z.
+# Observables given to the solver: S, a 44-value b0b1 range, k780 (cell 1e-11), k7b0 (cell 4e-11), map; k788/k7b8 only in the final check.
+
+## python3 theory.py 3 5 1   (12 characters)
+eszgidpspumk map 0 J [3, 1, 3, 6] | sig 28  X: J 6 A 117 sol 2  Y: J 4 A 51 sol 1 | pairs 1 cand 1 -> keys 2 HIT
+mntewoilsdke map 2 J [4, 4, 2, 4] | sig 24  X: J 7 A 96 sol 1  Y: J 5 A 33 sol 1 | pairs 1 cand 1 -> keys 3 HIT
+mvgrxaqlyopv map 0 J [4, 2, 3, 4] | sig 49  X: J 5 A 159 sol 5  Y: J 6 A 102 sol 1 | pairs 2 cand 1 -> keys 1 HIT
+yojenruhfuxn map 1 J [2, 3, 2, 3] | sig 30  X: J 5 A 123 sol 3  Y: J 5 A 72 sol 1 | pairs 1 cand 1 -> keys 2 HIT
+wqnuvgjnspqq map 0 J [2, 2, 4, 4] | sig 41  X: J 6 A 183 sol 2  Y: J 5 A 105 sol 1 | pairs 1 cand 1 -> keys 2 HIT
+recovered 5 / 5
+
+## python3 theory.py 4 6 2   (16 characters; first version of the join)
+bccpfxzzjitktbsz map 1 J [3, 6, 2, 3] | sig 69  X: J 13 A 628 sol 17655 (11.9s)  Y: J 11 A 572 sol 5225 (10.4s) | cand 1 -> keys 1 HIT
+zxqproqmbalskmnu map 0 J [4, 5, 6, 9] | sig 104  X: J 14 A 948 sol 26138 (13.3s)  Y: J 12 A 916 sol 7036 (10.0s) | cand 1 -> keys 2 HIT
+afkjeqqpqvrjoznu map 0 J [9, 10, 3, 9] | sig 122  X: J 13 A 1128 sol 29338 (14.4s)  Y: J 14 A 1148 sol 9408 (11.7s) | cand 1 -> keys 2 HIT
+ofyqwxoyqhpmpqqp map 1 J [3, 4, 5, 9] | sig 124  X: J 14 A 1108 sol 30437 (15.8s)  Y: J 13 A 1132 sol 9875 (11.1s) | cand 1 -> keys 1 HIT
+olsvxopzhkwjtiyt map 2 J [4, 5, 4, 8] | sig 115  X: J 14 A 1052 sol 29711 (12.7s)  Y: J 13 A 1004 sol 8585 (11.7s) | cand 1 -> keys 4 HIT
+qrquutsrjxgtqlvx map 2 J [6, 8, 3, 6] | sig 80  X: J 14 A 748 sol 20247 (14.8s)  Y: J 12 A 640 sol 5482 (8.8s) | cand 1 -> keys 3 HIT
+recovered 6 / 6      (X: iter 4356043653 surv 101264791 tests 466533937 for the first key)
+
+## python3 theory.py 4 8 7   (16 characters; C join; another job was running on the same 2 cores)
+kemybcrhlsbugbcr map 1 J [2, 4, 2, 3] | sig 105  X: J 13 A 964 sol 24741 (23.4s)  Y: J 12 A 900 sol 5791 (19.5s) | pairs 2077 cand 1 -> keys 3 HIT
+nbshhuuwbssqbhbv map 0 J [4, 4, 4, 7] | sig 81  X: J 15 A 724 sol 19090 (28.5s)  Y: J 12 A 680 sol 4536 (18.8s) | pairs 1540 cand 1 -> keys 1 HIT
+dsjvvfdwsugpdrwg map 2 J [4, 6, 5, 3] | sig 123  X: J 13 A 1108 sol 27420 (23.0s)  Y: J 13 A 1128 sol 7037 (21.7s) | pairs 2290 cand 1 -> keys 2 HIT
+vrnoosopjhzjwyhg map 1 J [6, 4, 4, 5] | sig 120  X: J 14 A 1124 sol 28393 (27.1s)  Y: J 12 A 1092 sol 7060 (18.6s) | pairs 2440 cand 1 -> keys 2 HIT
+kxontcdunfyoepnf map 0 J [4, 6, 3, 6] | sig 122  X: J 13 A 1104 sol 27975 (24.1s)  Y: J 15 A 1100 sol 7225 (29.2s) | pairs 2378 cand 1 -> keys 1 HIT
+zkkptpssccitwvcf map 1 J [4, 6, 4, 3] | sig 104  X: J 14 A 964 sol 24690 (30.1s)  Y: J 14 A 904 sol 5581 (22.8s) | pairs 1934 cand 1 -> keys 1 HIT
+ojwqvlaslfthpbgn map 2 J [6, 5, 5, 5] | sig 84  X: J 13 A 784 sol 20177 (25.9s)  Y: J 14 A 700 sol 4491 (21.1s) | pairs 1673 cand 1 -> keys 3 HIT
+pcfsmriinrirlvml map 2 J [8, 1, 5, 5] | sig 79  X: J 13 A 736 sol 19299 (23.8s)  Y: J 14 A 684 sol 4387 (24.2s) | pairs 1545 cand 1 -> keys 4 HIT
+recovered 8 / 8
+
+## python3 test5.py 256 11 1   (20 characters, smallest element confined to 1/256 of its range)
+key orysoqskfzqtutzjdoji map 0 J [4, 5, 6, 6] | sigma cand 84 | X: 28 J, 2395 A | Y: 26 J, 2305 A
+  X slice 1/256: 880844 sol, 108s | iter 81101219915 surv 1346492456 tests 20984883160
+  Y slice 1/256: 390692 sol, 85s | iter 83281829792 surv 578166218 tests 9380976621
+  true N3 set found True, true N1 set found True | join: 7349673 pairs (4s) -> 1 chunk sets -> 3 keys (3 classes) HIT
+## python3 test5.py 256 23 1
+key yjcesjnqqlekioaltoah map 1 J [8, 6, 5, 7] | sigma cand 94 | X: 29 J, 2740 A | Y: 28 J, 2650 A
+  X slice 1/256: 1509609 sol, 151s | iter 82582392691 surv 1683805346 tests 36221476981
+  Y slice 1/256: 189659 sol, 64s | iter 75815524896 surv 260471216 tests 3837738868
+  true N3 set found True, true N1 set found True | join: 5626432 pairs (4s) -> 1 chunk sets -> 3 keys (3 classes) HIT
+
+## full enumeration size for the first 20-character key (COUNT_ONLY=1 ./spenum_count 5 15 tmp_x5.in / tmp_y5.in)
+X: 14844804881402 iterations (28 integer-part candidates);  Y: 14826784242159 iterations
+
+## equivalent key for the contest key v (forge6.py 'equivalent KEY: GCCv' 0.03 129 20 60 enum 0.2; spjoin with the ASCII+kana table; verify6.py)
+chosen targets: J3=71 (residual product 8.0918), branch 0 J1=39 (residual 4.0992); 28 sigma values, 700 (A3,A1) combinations
+X: 70829 solutions, 58s | iter 85376829925 surv 216203828 tests 2761924136
+Y: 168931 solutions, 153s | iter 268388841891 surv 120228906 tests 3789844600
+spjoin: 3m03s -> 509642 lines; distinct chunk sets 371133, inside both cells 371133, right chunk sum 16410, fully matching keys 141 (all 141: 335 keystream words identical)
+earlier attempts with an ASCII-only table: 4 solved chunks, 258 chunk sets, 0 keys; 5 solved chunks, 14 and 4 chunk sets, 0 keys

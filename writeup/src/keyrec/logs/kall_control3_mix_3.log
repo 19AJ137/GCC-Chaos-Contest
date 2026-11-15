@@ -1,0 +1,8 @@
+## python3 kall.py control 3 mix 3
+control mix key 3d988c545feb9baca19511ce map 1 J [2, 3, 5, 3] classes(f3,f1) [(16, 16), (15, 15), (14, 14)] sigma 7771658557
+  sigma candidates 29; X: 6 J, 403 sums; Y: 5 J, 231 sums
+  X: 24 solutions, 0s | J=6 nA=13 done: iter 238792 surv 29987 tests 506191 sol 24  0.0s
+  Y (branch 0): 2 solutions, 0s | J=5 nA=22 done: iter 184256 surv 2561 tests 39638 sol 2  0.0s
+  join: 0s | X 24 Y 2 tags 13 fibre 249687 kept 33 pairs 2 sum_ok 3 out 1
+  -> 2 keys (2 classes): HIT ['5feb9bac3d988c54a19511ce', 'a19511ce3d988c545feb9bac']
+elapsed 0s

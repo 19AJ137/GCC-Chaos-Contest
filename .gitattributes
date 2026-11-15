@@ -1,1 +1,10 @@
-*.txt text eol=crlf
+# 暗号文・平文・鍵（*.txt）は改行を変換せず、バイト列のまま保存する。
+# GitHub の raw 表示・クローン・ZIP のどれで取り出しても、SHA-256 が sha256sum.txt と一致する。
+*.txt           -text
+
+# チェックサムの一覧は LF にそろえる（GNU の sha256sum -c は CRLF の行を読めない）
+sha256sum.txt   text eol=lf
+
+# バイナリは改行の変換も差分の表示もしない
+*.bin           binary
+*.exe           binary

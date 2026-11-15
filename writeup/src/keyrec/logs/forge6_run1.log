@@ -1,0 +1,15 @@
+k: all listed b0b1 give the same 335 words: True  block-2 word0 0f1272d9
+v: all listed b0b1 give the same 335 words: True  block-2 word0 6a3f8d10
+k flags block1 (.=no chain): .1.1111.1.111.1111111111.111111111.1.1111.1.111.111111111111.1.1
+v flags block1             : 11..11.11.111..1.1.111.11..1111..1111.11.11..11.111..11.1111.11.
+k k780 = 0.65626929924438127  cell [-9.349e-13, +1.665e-12]  width 2.599e-12  = 2^-38.5
+k k788 = 0.65483231010906973  cell [-6.467e-12, +6.542e-12]  width 1.301e-11  = 2^-36.2
+k k7b0 = 0.15460361384961596  cell [-1.186e-12, +8.597e-13]  width 2.046e-12  = 2^-38.8
+k k7b8 = 0.78572795397373485  cell [-2.711e-12, +1.966e-12]  width 4.677e-12  = 2^-37.6
+v k780 = 0.80018317365647817  cell [-1.819e-12, +5.457e-12]  width 7.276e-12  = 2^-37.0
+v k7b0 = 0.24647663309592588  cell [-2.915e-11, +2.906e-11]  width 5.821e-11  = 2^-34.0
+fixed 'equivalent KEY: GCCv'; sigma candidates 508; X targets 265; Y targets 578
+chosen targets: J3=71 (residual product 8.0918), branch 0 J1=39 (residual 4.0992); 28 sigma values, 700 (A3,A1) combinations with required J2+J4 within 20 of 129
+sums: X 140, Y 140
+X: 636072 solutions, 399s | J=71 nA=140 done: iter 586383130790 surv 1462120150 tests 22848579133 sol 636072  398.5s
+Y: 168931 solutions, 164s | J=39 nA=140 done: iter 268388841891 surv 120228906 tests 3789844600 sol 168931  164.1s

@@ -1,0 +1,12 @@
+36 文字・乱数の英小文字の鍵 1000000 本: S と目標の差の最小 738121（S が一様なら 2147 前後）、一致 0 本
+37 文字・乱数の英小文字の鍵 1000000 本: S と目標の差の最小 800034（S が一様なら 2147 前後）、一致 0 本
+38 文字・乱数の英小文字の鍵 1000000 本: S と目標の差の最小 976333（S が一様なら 2147 前後）、一致 0 本
+39 文字・乱数の英小文字の鍵 1000000 本: S と目標の差の最小 2705（S が一様なら 2147 前後）、一致 0 本
+40 文字・乱数の英小文字の鍵 1000000 本: S と目標の差の最小 57528849（S が一様なら 2147 前後）、一致 0 本
+36 文字: 範囲のすぐ上: aaazaaazaaazaaazaaamaaaaaaaaaaaaaaaa（σ の隔たり 574443、S の差 183134。K_PI × 隔たり = 182851） / 範囲のすぐ下: zzzzzzzzzzzzzzzzzzzlzzzazzzazzzazzza（σ の隔たり 1392818、S の差 445109。K_PI × 隔たり = 443348）
+37 文字: 範囲のすぐ上: aaazaaazaaazaaazaaamaaaaaaaaaaaaaaaaa（σ の隔たり 574540、S の差 183384。K_PI × 隔たり = 182882） / 範囲のすぐ下: zzzzzzzzzzzzzzzzzzzlzzzazzzazzzazzzaz（σ の隔たり 1386253、S の差 444890。K_PI × 隔たり = 441258）
+38 文字: 範囲のすぐ上: aaazaaazaaazaaazaaamaaaaaaaaaaaaaaaaaa（σ の隔たり 599372、S の差 191213。K_PI × 隔たり = 190786） / 範囲のすぐ下: zzzzzzzzzzzzzzzzzzzlzzzazzzazzzazzzazz（σ の隔たり 1355021、S の差 435008。K_PI × 隔たり = 431317）
+
+real	4m23.480s
+user	4m21.683s
+sys	0m0.016s

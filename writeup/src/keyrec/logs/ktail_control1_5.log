@@ -1,0 +1,7 @@
+## python3 ktail.py control 1 5
+control key e88297f1eac882b890e784683c (13 bytes) map 0 J [2, 2, 2, 3]
+  tail length 1: 0s | tails with map 0: 78 of 221; candidates 146036; iterations 57806402 | X 2127, Y 164 solutions
+  groups (tail, sigma): X 1585, Y 155, both 59
+  join: X 86 Y 62 tags 59 fibre 9955564 kept 743 pairs 59 sum_ok 12 out 12
+  -> 1 keys: HIT ['eac882b8e88297f190e784683c']
+elapsed 1s

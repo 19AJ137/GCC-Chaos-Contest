@@ -1,0 +1,8 @@
+## python3 kall.py real 3
+contest key k, 3 full chunks (12 bytes), every 4th byte >= 0x33
+  sigma candidates 25; X: 5 J, 442 sums; Y: 5 J, 220 sums
+  X: 22 solutions, 0s | J=6 nA=26 done: iter 206857 surv 30809 tests 731846 sol 22  0.0s
+  Y (branch 0): 3 solutions, 0s | J=5 nA=33 done: iter 179687 surv 3071 tests 37143 sol 3  0.0s
+  join: 0s | X 22 Y 3 tags 14 fibre 254507 kept 36 pairs 2 sum_ok 0 out 0
+  -> keys matching every target: 0
+elapsed 0s
