@@ -19,6 +19,7 @@ GCC カオス暗号の懸賞問題を、暗号文だけから解いた記録で�
 1. [algorithm.md](algorithm.md) — GCC6 の仕様（DLL から復元したアルゴリズム、実装の注意、版）
 2. [writeup.md](writeup.md) — 解読のライトアップ（鍵なしで内部状態を復元して、平文を読むまで）
 3. [password.md](password.md) — 内部状態からのパスワード復元（鍵 k の特定、鍵 v の等価な鍵、鍵 v についての制約と調べた範囲）
+4. [retrospective.md](retrospective.md) — 振り返り（CTF の感想戦のノリで、問題集めから解けるまで）
 
 コードの使い方は [`../src/README.md`](../src/README.md) にあります。
 
